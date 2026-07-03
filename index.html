@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yourlocofriend - Your World Starts Here. Discover insights, travel guides, and professional business solutions in one premium platform.">
+    <title>Your Loco Friend | Discover. Travel. Build.</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="site-header" id="site-header">
+        <div class="container header-container">
+            <a href="/" class="brand-logo">
+                <span class="logo-text">your<span class="text-accent">loco</span>friend</span>
+            </a>
+            
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li><a href="#discover" class="nav-link">Discover</a></li>
+                    <li><a href="#solutions" class="nav-link">Solutions</a></li>
+                    <li><a href="/journal/" class="nav-link">Journal</a></li>
+                    <li><a href="#" class="nav-link">Destinations</a></li>
+                    <li><a href="#" class="nav-link">About</a></li>
+                    <li><a href="#" class="nav-link">Contact</a></li>
+                    <li class="nav-cta"><a href="plan-journey.html" class="btn btn-primary">Plan Your Journey</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg-elements">
+            <div class="glow-shape shape-1"></div>
+            <div class="glow-shape shape-2"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Discover.<br>Travel.<br>Build.</h1>
+                <p class="hero-subtitle">Read trusted articles, discover destinations, book unforgettable journeys, and access professional business solutions—all in one premium platform.</p>
+                
+                <div class="hero-actions">
+                    <a href="#discover" class="btn btn-primary btn-large">Explore Articles</a>
+                    <a href="#solutions" class="btn btn-outline btn-large">Browse Solutions</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <!-- Abstract Globe/Visual Representation -->
+                <div class="globe-container">
+                    <div class="globe"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Triage Section -->
+    <section id="solutions" class="solutions-triage">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>How can we help you today?</h2>
+                <p>Select an area to explore tailored services and professional solutions.</p>
+            </div>
+            
+            <div class="triage-grid">
+                <a href="#" class="triage-card">
+                    <div class="triage-icon">✈</div>
+                    <h3>Travel</h3>
+                    <p>Flights, Hotels, Tours</p>
+                </a>
+                <a href="#" class="triage-card">
+                    <div class="triage-icon">💼</div>
+                    <h3>Business</h3>
+                    <p>Manufacturing, Sourcing</p>
+                </a>
+                <a href="#" class="triage-card">
+                    <div class="triage-icon">💻</div>
+                    <h3>Technology</h3>
+                    <p>Web Dev, AI, Marketing</p>
+                </a>
+                <a href="#" class="triage-card">
+                    <div class="triage-icon">🏠</div>
+                    <h3>Real Estate</h3>
+                    <p>Buying, Renting, Investment</p>
+                </a>
+            </div>
+
+            <div class="triage-workflow">
+                <h3>What are you looking for today?</h3>
+                <div class="workflow-selector">
+                    <select class="custom-select" aria-label="Select a service">
+                        <option value="" disabled selected>Select a service to get started...</option>
+                        <option value="flight">Book a Flight</option>
+                        <option value="hotel">Reserve a Hotel</option>
+                        <option value="vacation">Plan a Vacation</option>
+                        <option value="business-travel">Business Travel</option>
+                        <option value="web-dev">Website Development</option>
+                        <option value="garment">Garment Manufacturing</option>
+                        <option value="export">Export Consultation</option>
+                        <option value="real-estate">Real Estate</option>
+                        <option value="ai">AI Automation</option>
+                    </select>
+                    <button class="btn btn-primary">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discover Section (Editorial) -->
+    <section id="discover" class="discover-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Discover</h2>
+                <div class="categories">
+                    <ul class="category-list">
+                        <li><a href="#" class="category-pill active">Travel</a></li>
+                        <li><a href="#" class="category-pill">Technology</a></li>
+                        <li><a href="#" class="category-pill">Lifestyle</a></li>
+                        <li><a href="#" class="category-pill">Fashion</a></li>
+                        <li><a href="#" class="category-pill">Business</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="editorial-grid">
+                <!-- Featured Article -->
+                <article class="editorial-card featured-editorial">
+                    <div class="card-image-wrapper">
+                        <img src="images/post-gaming.png" alt="Featured Article: Premium Gaming Setup" loading="lazy" class="card-image" onerror="this.src='https://images.unsplash.com/photo-1593640408182-31c70c8268f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80'">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">Technology</span>
+                        <h3 class="card-title"><a href="article-1ms.html">Elevating Your Setup: Why Premium Gaming Accessories Matter</a></h3>
+                        <p class="card-excerpt">Discover how enthusiast-grade peripherals—from artisan mousepads to mechanical keyboards—can transform your desk into a high-performance ecosystem.</p>
+                        <div class="card-meta">
+                            <span class="author">By Sarah Jenkins</span>
+                            <span class="date">Oct 14, 2024</span>
+                            <span class="read-time" style="margin-left: auto;">6 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Contextual CTA (Bridge) -->
+                <div class="contextual-cta">
+                    <div class="cta-inner">
+                        <h3>Ready to go?</h3>
+                        <p>Book your flights and accommodations seamlessly with our trusted partners.</p>
+                        <a href="#" class="btn btn-primary">Book Your Hotel</a>
+                    </div>
+                </div>
+
+                <!-- Regular Article 1 -->
+                <article class="editorial-card">
+                    <div class="card-image-wrapper">
+                        <img src="images/post-2.png" alt="Article Thumbnail" loading="lazy" class="card-image" onerror="this.src='https://images.unsplash.com/photo-1556761175-5973dc0f32d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">Business</span>
+                        <h3 class="card-title"><a href="#">Manufacturing in Bangladesh: What You Need to Know</a></h3>
+                        <div class="card-meta">
+                            <span class="date">Oct 08, 2024</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Regular Article 2 -->
+                <article class="editorial-card">
+                    <div class="card-image-wrapper">
+                        <img src="images/post-3.png" alt="Article Thumbnail" loading="lazy" class="card-image" onerror="this.src='https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">Real Estate</span>
+                        <h3 class="card-title"><a href="#">Buying Property in Dubai: An Investor's Guide</a></h3>
+                        <div class="card-meta">
+                            <span class="date">Oct 05, 2024</span>
+                        </div>
+                    </div>
+                </article>
+                
+                 <!-- Contextual CTA 2 -->
+                 <div class="contextual-cta alt-bg">
+                    <div class="cta-inner">
+                        <h3>Expand your business</h3>
+                        <p>Get expert consultation on export and manufacturing.</p>
+                        <a href="#" class="btn btn-outline">Request Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How We Help -->
+    <section class="how-we-help">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Your Ecosystem for Growth</h2>
+                <p>We bridge the gap between inspiration and execution.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h4l3-9 5 18 3-9h5"/></svg>
+                    </div>
+                    <h4>Discover Trends</h4>
+                    <p>Read premium editorial content covering the latest in travel, business, and tech.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                    </div>
+                    <h4>Book Services</h4>
+                    <p>Seamlessly transition from reading to taking action with our integrated service providers.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v8"/><path d="M8 12h8"/></svg>
+                    </div>
+                    <h4>Scale Your Business</h4>
+                    <p>Access high-quality B2B services, from garment manufacturing to AI automation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Trusted by global explorers and businesses</h2>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p class="quote">"Your Loco Friend completely changed how we handle business travel and sourcing in Asia. It's an indispensable ecosystem."</p>
+                    <div class="author-info">
+                        <div class="avatar"></div>
+                        <div>
+                            <strong>Michael Chen</strong>
+                            <span>Operations Director, Nexus</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="quote">"The transition from reading about a destination to instantly booking a curated tour is flawless. Premium experience all around."</p>
+                    <div class="author-info">
+                        <div class="avatar"></div>
+                        <div>
+                            <strong>Elena Rodriguez</strong>
+                            <span>Frequent Traveler</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- From Our Journal Section (Cielo Integration) -->
+    <section class="journal-section" style="padding: 6rem 0; background-color: var(--color-surface-alt);">
+        <div class="container">
+            <div class="section-header">
+                <h2>From Our Journal</h2>
+                <p>Discover the latest stories, styling tips, and brand insights.</p>
+            </div>
+            <div class="editorial-grid" style="grid-template-columns: 1fr;">
+                <!-- Featured Article: Cielo Story -->
+                <article class="editorial-card featured-editorial" style="grid-column: span 1;">
+                    <div class="card-image-wrapper" style="aspect-ratio: 21/9;">
+                        <img src="images/cielo-hero.jpg" alt="Cielo Minimal Fashion" loading="lazy" class="card-image" onerror="this.src='https://images.unsplash.com/photo-1434389678232-0690a50f3861?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80'">
+                    </div>
+                    <div class="card-content" style="max-width: 800px; margin: 0 auto; padding-top: 2rem; text-align: center;">
+                        <span class="card-tag">Brand Story</span>
+                        <h3 class="card-title" style="font-size: 2.5rem; margin-bottom: 1rem;"><a href="journal/cielo-story.html">Fashion That Fits Your Everyday Life: The Story Behind Cielo</a></h3>
+                        <p class="card-excerpt" style="font-size: 1.1rem; margin-bottom: 1.5rem;">Discover the inspiration behind Cielo. Learn how we balance comfort, quality, and minimal style to build everyday wardrobe essentials.</p>
+                        <div class="card-meta" style="justify-content: center; margin-bottom: 2rem;">
+                            <span class="author">By Cielo Editorial Team</span>
+                            <span class="date">Oct 16, 2024</span>
+                            <span class="read-time">8 min read</span>
+                        </div>
+                        <a href="journal/cielo-story.html" class="btn btn-primary">Read Article</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter CTA Section -->
+    <section class="cta-section">
+        <div class="cta-bg-elements"></div>
+        <div class="container cta-container">
+            <div class="cta-content">
+                <h2>Stay Inspired</h2>
+                <p>Receive style tips, early access to new collections, and exclusive offers from Cielo.</p>
+                <form class="subscribe-form" onsubmit="event.preventDefault();">
+                    <input type="email" placeholder="Enter your email address" required aria-label="Email address">
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="/" class="brand-logo footer-logo">
+                    <img src="images/emblem.png" alt="Yourlocofriend Emblem" class="footer-emblem" onerror="this.style.display='none'">
+                    <span class="logo-text">your<span class="text-accent">loco</span>friend</span>
+                </a>
+                <p class="footer-tagline">Your World Starts Here.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    </a>
+                    <a href="#" aria-label="Twitter">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-links-group">
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Discover</h4>
+                    <ul>
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#">Destinations</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Interviews</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Solutions</h4>
+                    <ul>
+                        <li><a href="#">Travel & Booking</a></li>
+                        <li><a href="#">Business Sourcing</a></li>
+                        <li><a href="#">Tech Services</a></li>
+                        <li><a href="#">Real Estate</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Yourlocofriend.com.bd. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
